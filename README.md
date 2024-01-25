@@ -1,0 +1,1 @@
+Tesing QR code static page
