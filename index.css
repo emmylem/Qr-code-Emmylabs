@@ -11,7 +11,6 @@
 *::-moz-selection {
     background: gray;
 }
- 
 
 * {
     -webkit-tap-highlight-color: transparent;
@@ -25,6 +24,8 @@ html {
     font-family: Whitney, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
     cursor:default;
 }
+
+
 #preloader{
     background-color:black;
     height: 100%;
@@ -274,7 +275,8 @@ html {
       margin-left: 0px;
     }
   }
-  
+
+
 main{
     background-color: rgb(10, 10, 10);
     height: 100vh;
@@ -347,62 +349,3 @@ button {
     transition-duration: .5s;
   }
 /* landing page */
-
-/* responsive code below*/
-@media screen and (max-width:1920px) {
-    html {
-        font-size: 60%;
-    }
-}
-
-@media screen and (max-width:1200px) {
-    html {
-        font-size: 60%;
-    }
-}
-
-@media screen and (max-width:998px) {
-    html {
-        font-size: 55%;
-    }
-    .logoContainer img{
-        width: 50%;
-    }
-}
-
-@media screen and (max-width:768px) {
-    html {
-        font-size: 50%;
-    }
- 
-}
-
-@media screen and (max-width:500px) {
-    html {
-        font-size: 45%;  
-    }
-    .logoContainer img{
-        width: 100%;
-    }
-
-}
-
-@media screen and (max-width:430px) {
-    html {
-        font-size: 43%;
-    }
-}
-
-@media screen and (max-width:375px) {
-    html {
-        font-size: 40%;
-    }
-}
-@media screen and (max-width:300px) {
-    html {
-        font-size: 40%;
-    }
-}
-
-/* responsive code above */
-
